@@ -1,0 +1,13 @@
+model,block,n_tests,n_pass,pass_rate,mean_rel_err,max_rel_err,status
+GFL6,swing_eqn,14,14,100.0,0.002336,0.010546,PASS
+GFL6,delta_eqn,6,6,100.0,0.000099,0.000166,PASS
+GFL6,exciter_eqn,3,3,100.0,0.006636,0.009999,PASS
+GFL6,governor_eqn,12,12,100.0,0.000116,0.000231,PASS
+GFL6,inverter_self,108,76,70.4,0.209145,1.000000,FAIL
+GFL6,inv_to_gen,4,1,25.0,1.000000,1.000000,FAIL
+GFM,swing_eqn,14,14,100.0,0.000656,0.004203,PASS
+GFM,delta_eqn,6,6,100.0,0.000099,0.000166,PASS
+GFM,exciter_eqn,3,3,100.0,0.014643,0.024391,PASS
+GFM,governor_eqn,12,12,100.0,0.000116,0.000231,PASS
+GFM,inverter_self,108,76,70.4,0.307058,1.000000,FAIL
+GFM,inv_to_gen,4,3,75.0,0.543407,1.995852,FAIL

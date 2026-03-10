@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+
+# OS
+.DS_Store
+*:Zone.Identifier
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Training checkpoints (large binary files)
+*.pt
+
+# LaTeX PDF output
+arxiv_dae_paper.pdf
+naps2026.pdf
+
+# Temp/scratch files
+*.png.Zone.Identifier
+62d8d2f6-*.png
+STOP
+
+# Internal working docs
+BASELINE_SECTION_ROLE_AUDIT.md
+IEEE_TRANSACTIONS_QUALITY_STANDARD.md
+
+# Orchestrator artifacts
+signals/
+inbox/
+drafts/
+reviews/
+logs/
+.orchestrator.pid
+STATUS.md
+orchestrator.sh
+run.sh
+stop.sh
+monitor.sh
